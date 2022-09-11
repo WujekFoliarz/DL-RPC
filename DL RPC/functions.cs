@@ -50,7 +50,7 @@ namespace DL_RPC
             }
         }
 
-        private static void findDuplicate()
+        public static void findDuplicate()
         {
             if (Process.GetProcessesByName(Process.GetCurrentProcess().ProcessName).Length > 1)
             {

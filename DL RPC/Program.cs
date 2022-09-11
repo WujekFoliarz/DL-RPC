@@ -6,6 +6,7 @@ namespace DL_RPC
     {
         static void Main(string[] args)
         {
+            functions.findDuplicate();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new main_form());
